@@ -1,0 +1,38 @@
+DataFlow Analytics — Business Intelligence Platform | v2.4.0 (2024)
+
+FEATURES:
+- 200+ data source connectors (SQL, NoSQL, REST APIs, CSV, Excel, Google Sheets)
+- Drag-and-drop dashboard builder — no SQL required
+- AI-powered anomaly detection and trend forecasting
+- Automated reports: schedule PDF/Excel/Slack delivery
+- Real-time streaming analytics (Kafka, Kinesis)
+- AutoML: 1-click predictive model builder
+- Row-level security and column masking
+- White-label embedding via iframe or JS SDK
+
+PRICING:
+- Analyst      — $29/mo   — 5 dashboards, 3 sources, 3 users
+- Professional — $99/mo   — Unlimited dashboards, 20 sources, 20 users, AutoML
+- Enterprise   — $399/mo  — Unlimited everything, dedicated support, SLA, on-prem option
+
+TROUBLESHOOTING:
+Q: My database connection fails?
+A: 1) Verify credentials and check the database is online. 2) Whitelist DataFlow IPs: 34.102.140.0/24. 3) Ensure SSL cert is valid. 4) Test connection from Admin > Data Sources > Test.
+
+Q: Dashboard loads slowly?
+A: 1) Enable query cache: Dashboard > Settings > Cache > 1 hour. 2) Switch to a data extract (snapshot) for large datasets. 3) Add database indexes on filter columns. 4) Reduce chart refresh interval.
+
+Q: Scheduled reports are not being delivered?
+A: Admin > Notifications > SMTP settings. Verify sender domain SPF/DKIM records. Check spam folder. Test: Admin > Reports > Send Test.
+
+Q: How do I create threshold alerts?
+A: Dashboard > widget menu > Add Alert > metric, operator, threshold > notification channel (email/Slack/PagerDuty).
+
+COMPATIBILITY:
+- DataFlow Analytics integrates with CloudStore Pro as a data source.
+- DataFlow Analytics integrates with TeamFlow Pro for embedded dashboards in projects.
+- DataFlow Analytics does NOT directly integrate with SecureVault AI.
+
+INTEGRATIONS: Salesforce, HubSpot, Stripe, Snowflake, BigQuery, Redshift, PostgreSQL, MySQL, MongoDB, Elasticsearch, Google Analytics 4, Mixpanel
+
+SUPPORT: support@dataflow.io | Enterprise: enterprise@dataflow.io

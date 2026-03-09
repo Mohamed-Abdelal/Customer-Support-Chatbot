@@ -1,0 +1,41 @@
+CloudStore Pro — Enterprise Cloud Storage | v5.2.1 (2024)
+
+FEATURES:
+- Unlimited intelligent-tiered storage (hot/warm/cold)
+- AES-256-GCM end-to-end encryption at rest and in transit
+- Real-time sync across unlimited devices (Windows, Mac, Linux, iOS, Android)
+- Version history: 365 days (Enterprise), 90 days (Business), 30 days (Starter)
+- Team collaboration: folders, granular permissions, audit log
+- REST & GraphQL API with webhooks; 99.99% SLA
+- Integration: Slack, Teams, Zapier, AWS S3 (migration wizard)
+
+PRICING:
+- Starter    — $9/mo   — 100 GB, 3 users, email support
+- Business   — $49/mo  — 2 TB, 25 users, priority support, API access
+- Enterprise — $199/mo — Unlimited, unlimited users, dedicated CSM, SLA guarantees
+
+TROUBLESHOOTING:
+Q: Sync stops or files stuck?
+A: 1) Open Settings > Advanced > Restart Sync. 2) Check that ports 443 and 8443 are not blocked by your firewall. 3) Clear cache: AppData/CloudStore/cache (Windows) or ~/Library/CloudStore/cache (Mac).
+
+Q: Upload speeds are very slow?
+A: Enable parallel multi-thread uploads in Settings > Performance. Ensure at least 10 Mbps upload bandwidth. Pause and resume large uploads if throttling occurs.
+
+Q: How do I restore deleted files?
+A: Web Console > Trash > select files > Restore. Files remain in Trash for 30 days before permanent deletion.
+
+Q: How do I enable 2FA?
+A: Account > Security > Two-Factor Authentication > choose TOTP app (Google Authenticator, Authy) or SMS.
+
+Q: What are the API rate limits?
+A: Starter: 1000 req/hr. Business: 10000 req/hr. Enterprise: unlimited (fair-use).
+
+Q: How do I migrate from AWS S3?
+A: Tools > Data Migration > Source: Amazon S3 > enter credentials > start wizard. Large migrations may take 24-72 hours.
+
+COMPATIBILITY:
+- CloudStore Pro integrates with DataFlow Analytics for direct data source connections.
+- CloudStore Pro integrates with TeamFlow Pro for file attachments in projects.
+- CloudStore Pro does NOT directly integrate with SecureVault AI (different security domains).
+
+SUPPORT: support@cloudstore.com | Enterprise hotline: +1-800-CLOUD-911

@@ -1,0 +1,40 @@
+TeamFlow Pro — Project Management & Team Collaboration | v4.1.0 (2024)
+
+FEATURES:
+- Kanban, Scrum, Gantt, List, Calendar, and Timeline views
+- Real-time collaborative docs and whiteboards
+- Time tracking with automated timesheets and invoicing
+- Custom workflows, automations (if/then rules, no-code)
+- Resource management with workload heatmaps
+- OKR and goal tracking with progress visualisation
+- Native video calls (up to 50 participants) and async video messages
+- 100+ integrations: Slack, GitHub, Jira, Figma, Notion, Zoom, Google Workspace
+
+PRICING:
+- Free       — $0/mo          — 5 users, 3 projects, 5 GB storage
+- Starter    — $8/user/mo     — Unlimited projects, 20 GB, basic automations
+- Business   — $16/user/mo    — Advanced automations, time tracking, OKRs, priority support
+- Enterprise — $28/user/mo    — SSO, advanced security, audit log, dedicated CSM, SLA
+
+TROUBLESHOOTING:
+Q: Notifications are not arriving?
+A: Profile > Notification Preferences > verify channels. For email: check spam. For mobile: Profile > Mobile App > push notification permissions.
+
+Q: How do I migrate tasks from Jira?
+A: Settings > Import > choose Jira > download CSV from Jira > upload here. Map fields in the wizard. Migration keeps all comments, attachments, and history.
+
+Q: Automations are not triggering?
+A: 1) Check automation is enabled. 2) Verify trigger conditions match exactly. 3) Review Automation Log: Settings > Automations > Logs. Free plan has a 100 runs/month limit.
+
+Q: How do I set up Single Sign-On?
+A: Enterprise plan required. Admin > Security > SSO > choose provider (Okta, Azure AD, Google) > follow setup guide. Supports SAML 2.0 and OIDC.
+
+Q: Can guests access projects without a paid seat?
+A: Yes — invite as Guest (free). Guests can view and comment but cannot create tasks. Unlimited guest seats on all paid plans.
+
+COMPATIBILITY:
+- TeamFlow Pro integrates with CloudStore Pro for file attachments.
+- TeamFlow Pro integrates with DataFlow Analytics for embedded dashboards.
+- TeamFlow Pro integrates with SecureVault AI for secure credential storage.
+
+SUPPORT: help@teamflow.io | Status page: status.teamflow.io | Enterprise: +1-888-TEAMFLOW

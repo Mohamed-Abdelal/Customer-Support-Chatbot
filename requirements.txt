@@ -1,0 +1,14 @@
+langchain
+langchain-classic
+langchain-groq
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langgraph
+faiss-cpu
+sentence-transformers
+numpy
+scikit-learn
+python-dotenv
+streamlit

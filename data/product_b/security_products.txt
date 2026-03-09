@@ -1,0 +1,39 @@
+SecureVault AI — Intelligent Password & Secrets Manager | v3.8.0 (2024)
+
+FEATURES:
+- Zero-knowledge architecture — we NEVER see your master password
+- AI password-strength analyser with real-time feedback
+- Breach monitoring: checks against 15 billion+ leaked credentials daily
+- Secure sharing via time-limited encrypted links
+- Browser extensions: Chrome, Firefox, Safari, Edge, Brave
+- SSO: SAML 2.0, OIDC, Azure AD, Okta, Google Workspace
+- Hardware key support: YubiKey, FIDO2
+- SOC 2 Type II, ISO 27001, GDPR, HIPAA compliant
+
+PRICING:
+- Personal  — Free      — 50 passwords, core features
+- Premium   — $3/mo     — Unlimited passwords, priority support, advanced MFA, emergency access
+- Teams     — $5/user/mo — Admin console, shared vaults, activity logs
+- Business  — $8/user/mo — SSO, advanced policies, SCIM provisioning, audit trail
+
+TROUBLESHOOTING:
+Q: I forgot my master password — can you reset it?
+A: No. Zero-knowledge architecture means we cannot recover your master password. Use your pre-configured Emergency Access contact or account recovery kit (printed at setup).
+
+Q: Browser extension isn't auto-filling?
+A: 1) Update the extension to latest version. 2) Go to Vault > Connected Apps > disconnect then reconnect. 3) Temporarily disable other password managers. 4) Check that the site is not safelisted from auto-fill.
+
+Q: I received a breach alert — what do I do?
+A: 1) Go to Security Dashboard > Breached Items. 2) Change the flagged password immediately. 3) Enable real-time breach alerts: Settings > Alerts > Breach Monitoring.
+
+Q: How do I set up SSO?
+A: Business plan required. Admin > SSO Configuration > choose provider > follow the SAML/OIDC wizard. Contact support@securevault.ai for enterprise onboarding.
+
+Q: Can I share passwords securely with someone outside my team?
+A: Yes — Items > Share > Create Secure Link > set expiry (1 hour to 30 days) > send link. Recipient does not need an account.
+
+COMPATIBILITY:
+- SecureVault AI integrates with TeamFlow Pro for secure credential management in projects.
+- SecureVault AI does NOT directly integrate with CloudStore Pro or DataFlow Analytics.
+
+SUPPORT: support@securevault.ai | Security: security@securevault.ai
